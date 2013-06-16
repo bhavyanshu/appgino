@@ -90,6 +90,7 @@ public class FetchSelCatActivity extends ListActivity {
                 myIntent.putExtra("TAG_SINGLEITEMID", singleitemid);
                 myIntent.putExtra("TAG_SINGLEITEMCAT", getcatID);
                 myIntent.putExtra("int_value", intValueofcatid);
+                myIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
      		   FetchSelCatActivity.this.startActivity(myIntent);      
             }

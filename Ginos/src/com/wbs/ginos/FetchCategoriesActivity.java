@@ -65,6 +65,7 @@ public class FetchCategoriesActivity extends ListActivity {
                 Log.i("Category ID is:",categoryid);
                 in.putExtra("pathid", categoryid);
                 in.putExtra("categoryid", intCategoryID);
+                in.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); 
                 // starting new activity and expecting some response back
                 startActivityForResult(in, 100);
             }
