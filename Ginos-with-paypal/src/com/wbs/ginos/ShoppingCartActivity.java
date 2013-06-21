@@ -175,7 +175,7 @@ OnItemSelectedListener, OnMultiChoiceClickListener, OnDismissListener {
 		newPayment.setSubtotal(new BigDecimal(totalprice)); 
 		newPayment.setCurrencyType("USD"); 
 		newPayment.setRecipient("svigra_1322573821_biz@gmail.com"); 
-		newPayment.setMerchantName("Picasso and PayPal");					
+		newPayment.setMerchantName("Ginos and PayPal");					
 					
 		Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, this /*, new ResultDelegate()*/);
 			    // Use the android's startActivityForResult() and pass in our
