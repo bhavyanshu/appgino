@@ -173,8 +173,8 @@ OnItemSelectedListener, OnMultiChoiceClickListener, OnDismissListener {
 	public void PayPalButtonClick(View v) {
 		PayPalPayment newPayment = new PayPalPayment(); 
 		newPayment.setSubtotal(new BigDecimal(totalprice)); 
-		newPayment.setCurrencyType("USD"); 
-		newPayment.setRecipient("svigra_1322573821_biz@gmail.com"); 
+		newPayment.setCurrencyType("EUR"); 
+		newPayment.setRecipient("itmdevteam@gmail.com"); 
 		newPayment.setMerchantName("Ginos and PayPal");					
 					
 		Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, this /*, new ResultDelegate()*/);
