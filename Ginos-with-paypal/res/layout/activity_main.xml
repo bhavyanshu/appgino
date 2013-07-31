@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlogo"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <!--
+    <Button
+        android:id="@+id/btnviewMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD:Ginos-with-paypal/res/layout/activity_main.xml
+        android:text="View Menu" />
+-->
+
+     <Button
+         android:id="@+id/aboutBtn"
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:layout_alignBaseline="@+id/loyaltyBtn"
+         android:layout_alignBottom="@+id/loyaltyBtn"
+         android:layout_alignLeft="@+id/placeorderBtn"
+         android:background="@drawable/aboutus"
+         android:textSize="18sp" />
+
+     <Button
+         android:id="@+id/loyaltyBtn"
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:layout_alignLeft="@+id/eshopBtn"
+         android:layout_below="@+id/eshopBtn"
+         android:background="@drawable/loyalty"
+         android:textSize="18sp" />
+
+     <Button
+         android:id="@+id/eshopBtn"
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/aboutBtn"
+         android:background="@drawable/eshop"
+         android:textSize="18sp" />
+
+     <Button
+         android:id="@+id/placeorderBtn"
+         android:layout_width="110dp"
+         android:layout_height="110dp"
+         android:layout_above="@+id/aboutBtn"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="34dp"
+         android:background="@drawable/placeorder"
+         android:textSize="18sp" />
+=======
+        android:text="View Menu" 
+    -->
+
+
+    <!-- About Button -->
+
+
+    <!-- Loyalty Button -->
+
+    <Button
+        android:id="@+id/loyaltyBtn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/eshopBtn"
+        android:layout_below="@+id/eshopBtn"
+        android:background="@drawable/loyalty"
+        android:textSize="18sp" />
+    <!-- e-shop Button -->
+
+
+    <!-- Place Order Button -->
+
+    <Button
+        android:id="@+id/eshopBtn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/eshop"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/eshopBtn"
+        android:layout_toLeftOf="@+id/loyaltyBtn"
+        android:background="@drawable/aboutus"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/placeorderBtn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_above="@+id/loyaltyBtn"
+        android:layout_toLeftOf="@+id/loyaltyBtn"
+        android:background="@drawable/placeorder"
+        android:textSize="18sp" />
+>>>>>>> 0b0da3fcf789042f206f1d9336c3823d80af77d9:Ginos/res/layout/activity_main.xml
+
+</RelativeLayout>
