@@ -13,5 +13,5 @@
     <string name="title_activity_about">About Us</string>
     <string name="aboutginos">About Ginos - Need to add some text about ginos here</string>
     <string name="devs">Developed by Bhavyanshu Parasher, Chirag Aggarwal &amp; Mayumi Mohan</string>
-
+	<string name="helpcarttext">To add item to cart, kindly click on the cart button on top right!</string>
 </resources>
