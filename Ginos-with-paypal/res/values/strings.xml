@@ -11,5 +11,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_loyalty">Loyalty Card Scheme</string>
     <string name="title_activity_about">About Us</string>
+    <string name="devs">Developed by Bhavyanshu Parasher, Chirag Aggarwal &amp; Mayumi Mohan</string>
 
 </resources>
