@@ -20,12 +20,20 @@
         android:background="@drawable/logobrown" />
     
     <TextView 
-        android:id="@+id/devs"
+        android:id="@+id/aboutginos"
         android:layout_below="@+id/gohome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/devs"
-        
+        android:text="@string/aboutginos"
+        android:layout_margin="20dip"
         />
 
+    <TextView
+        android:id="@+id/devs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gohome"
+        android:layout_centerVertical="true"
+        android:text="@string/devs" />
+    
 </RelativeLayout>
